@@ -23,6 +23,10 @@
    frameworks.
 3. I enjoy pain?
 
+## Original
+
+The OUIRTFReader may be found [here](https://github.com/omnigroup/OmniGroup/tree/master/Frameworks/OmniUI/iPad/RTF).
+
 ---
 
 There is probably more included here than strictly needed.
