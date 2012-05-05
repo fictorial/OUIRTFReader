@@ -4,17 +4,17 @@
 
 2. Add the following to your project's prefix.pch.
 
-    #import <OmniBase/OmniBase.h>
-    #import <OmniFoundation/OFCharacterSet.h>
-    #import <OmniFoundation/OFStringScanner.h>
-    #import <OmniFoundation/OFNull.h>
+        #import <OmniBase/OmniBase.h>
+        #import <OmniFoundation/OFCharacterSet.h>
+        #import <OmniFoundation/OFStringScanner.h>
+        #import <OmniFoundation/OFNull.h>
 
 3. Link with CoreText.framework.
 
 4. Use the RTF reader.
 
-    NSString *rtfString = ...
-    NSString *plainTextString = [[OUIRTFReader parseRTFString:rtfString] string];
+        NSString *rtfString = ...
+        NSString *plainTextString = [[OUIRTFReader parseRTFString:rtfString] string];
 
 ## Why did I do this?
 
